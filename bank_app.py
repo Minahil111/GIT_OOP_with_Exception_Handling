@@ -101,6 +101,8 @@ print(marge_account.get_lastname())
 print(marge_account.account_holder_name)
 
 # setters
+# property syntax - no brackets
+# using assignment operator : =
 marge_account.account_holder_name = "Margorie Simpson"
 print(marge_account.account_holder_name)
 

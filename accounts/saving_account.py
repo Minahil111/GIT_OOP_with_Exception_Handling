@@ -14,5 +14,8 @@ class SavingAccount(Account):
         else:
             breach_amount = self._minimum_balance - (self._balance - amount)
             raise MinimumBalanceBreachedException(breach_amount)
+# 'throwing' an exception
+# always use camel/pascal case and end it with 'Exception'
+# key word : raise
 
 
